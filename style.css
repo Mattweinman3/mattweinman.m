@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+
+
+body {
+  background-color: rgb(230, 237, 222);
+  font-family: 'Droid Serif', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  max-width: 960px;
+}
+a:default {
+  color: darkgreen;
+}
+a:visited {
+  color: rgb(250,225,90);
+  text-shadow: 3px 3px 3px black;
+}
+
+a:hover {
+  color: rgb(213,56,5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', serif;
+}
+
+h2 {
+  color: rgb(47,35,23);
+}
+
+h3 {
+  color: rgb(96,128,32);
+}
+
+p {
+  line-height: 1.5;
+}
+
+section {
+  margin-top: .5em 1em;
+  padding: 1em;
+}
+
+section h2 {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  padding: 0.1em 0.25em;
+}
+
+ul li {
+  line-height: 1.5;
+}
+
+
+/* navigation */
+nav {
+  background-color: rgb(130, 168, 68);
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  background-color: rgb(130, 168, 68);
+  padding: auto;
+  margin: auto;
+  border:1px white;
+  overflow: auto;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: inline-flex;
+  color: white;
+  text-align: center;
+  padding: .25em 1.2em;
+  text-decoration: none;
+}
+
+/*header*/
+header {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(47,35,23);
+}
+
+header h1 {
+  color: white;
+  border: auto;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+}
+
+header address {
+  color: rgb(150, 149, 93);
+  padding: 5px;
+  font-size: 12pt;
+}
+
+/*main*/
+main {
+  width: 100%;
+}
+
+main a:default {
+  color: rgb(165,42,42);
+  text-shadow: 3px 3px 3px black;
+}
+
+main a:visited {
+  color: rgb(250,100,200);
+  text-shadow: 3px 3px 3px black;
+}
+
+main a:hover {
+  color: rgb(213,56,5)
+}
+
+footer a:default {
+  color: rgb(165,42,42);
+  text-shadow: 1px 1px 1px black;
+}
+
+footer a:visited {
+  color: darkgreen;
+}
