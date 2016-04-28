@@ -1,0 +1,15 @@
+
+* {
+  background-color: transparent;
+  color: black;
+  font-size: 12pt;
+  font-family: serif;
+ }
+
+nav {
+  display: none;
+}
+
+footer {
+  display: none;
+}
